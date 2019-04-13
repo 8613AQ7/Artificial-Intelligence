@@ -1,0 +1,186 @@
+body
+{
+	padding: 0;
+	margin: 0;
+}
+a
+{
+	text-decoration: none;
+}
+h2,h3
+{
+	font-weight: 100;
+}
+p
+{
+	text-indent: 2em;
+}
+#wrap
+{
+	height:1000px;
+
+}
+#header
+{
+	z-index: 10;
+	position:fixed;
+	height:80px;
+	width:100%;
+	background:#cfc;
+}
+#pic1
+{
+	position: relative;
+	float: left;
+	height: 80px;
+	width: 80px;
+	left:80px;
+}
+#ai
+{
+	font-size: 40px ;
+	font-style: italic;
+	color: #00e;
+	float:left;
+	height:50px;
+	position: relative;
+	top:50%;
+	margin-top:-25px;
+	margin-left: 30px;
+	left:80px;
+}
+#nav
+{
+	position: relative;
+	float: right;
+	height:50px;
+	right: 80px;
+	top:50%;
+	margin-top:-25px;
+}
+.navItem
+{
+	display: block;
+	font-size:20px ;
+	color:#00e;
+	float: right;
+	margin: 15px;
+}
+
+.navItem:hover
+{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#body
+{
+	padding-top: 80px;
+}
+.page
+{
+	height: 600px;
+	overflow: hidden;
+}
+
+#page1
+{
+	background: red;
+}
+
+#page2
+{
+	background: blue;
+}
+#page3
+{
+	background: yellow;
+}
+#page4
+{
+	background: green;
+}
+
+#footer
+{
+	font-size: 15px;
+	text-align: center;
+	background: #888;
+}
+
+#footer span
+{
+	margin: 15px;
+	color: #111;
+}
+#pic2
+{
+	float: left;
+	margin-right: 20px;
+}
+.passage
+{
+	margin: 10px;
+	color: #df7;
+	font-size: 21px;
+	line-height: 38px;
+}
+#page3 h2
+{
+	margin:40px 150px 10px;
+	font-size: 28px;
+	color: red;
+}
+#page3 h3
+{
+	margin: 0px 15px -5px;
+	padding: 0;
+	font-size: 22px;
+}
+.edu
+{
+	float: left;
+	margin-left: 50px;
+	padding:15px;
+	height:450px;
+	width:350px;
+	line-height: 30px;
+}
+.edu p
+{
+	border: 5px solid #f11;
+	font-size: 18px;
+	color: #111;
+	box-shadow: 5px 5px 5px #a11;
+}
+
+.learn
+{
+	height: 260px;
+	width:400px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 35px;
+	overflow: hidden;
+}
+.learn h3
+{
+	z-index: 1;
+	color: #1ee;
+	font-size: 24px;
+	margin:-30px 140px 50px;
+}
+.learn img
+{
+	margin-top:215px;
+}
+.learn h3.active
+{
+	transform: translate(0,100%);
+	transition: all 1.5s; 
+}
+.learn img.active
+{
+	transform: translate(0,-100%);
+	transition: all 1.5s; 
+}
