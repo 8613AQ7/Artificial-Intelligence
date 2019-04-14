@@ -1,5 +1,5 @@
 # Artificial-Intelligence
-*the first project after roughly learning HTML,CSS and JavaScript*
+*the first project after roughly learning HTML,CSS and JavaScript*  
 **Don't support IE**  
 * Different computer resolutions may influnce the position of some elements and lead to an ugly appearance.  
 * Use your mouse to find some interesting functions.
